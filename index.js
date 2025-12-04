@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000;
 // Simulasi data kereta
 app.get('/', (req, res) => {
   res.json({
-    message: "Wahdah Fleet System Operational",
+    message: "Wahdah Fleet System Operational - Auto Deploy Berjaya!",
     region: process.env.FLY_REGION || "local", // Tunjuk server mana yang jawab
     timestamp: new Date().toISOString()
   });
